@@ -12,7 +12,14 @@
     <link rel="manifest" href="./favicon/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <!-- base/reset -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- components -->
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <!-- custom style -->
     <link rel="stylesheet" href="./css/main.css">
+    
 </head>
 
 <body>
@@ -26,7 +33,32 @@
             </footer>
         </div>
         <div class="right-column">
-            RIGHT
+            <div class="close">
+            <form class="form">
+                <div class="form-row">
+                    <label for="" class="label">Username</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="form-row">
+                    <label for="" class="label">Email</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="form-row">
+                    <label for="" class="label">Password</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="form-row">
+                    <label for="" class="label">Repeat password</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="form row">
+                    <button type="submit">Get started</button>
+                    <span>or</span>
+                    <a href="#">Sign in</a>
+                </div>
+                
+            </form>
+            </div>
         </div>
     </main>
 </body>
