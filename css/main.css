@@ -16,13 +16,35 @@ body {
 }
 .left-column {
     width: 40%;
+    height: 500px;
     float: left;
     padding: 40px;
-    background-color: darkgoldenrod;
+    background-color: #008FAE;
+    background-image: url(../img/img2.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.main-title {
+    width: 100%;
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 200px;
+}
+.bottom-links {
+    margin-top: 370px;
+}
+.bottom-links > .link {
+    color: white;
+
+    
 }
 .right-column {
     width: 60%;
     float: left;
     padding: 60px;
-    background-color: blue;
+    background-color: khaki;
 }
+
